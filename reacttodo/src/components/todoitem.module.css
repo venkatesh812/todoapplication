@@ -1,0 +1,45 @@
+.item {
+    background-color: rgb(124, 238, 238);
+    margin: 30px;
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.buttons {
+    padding: 5px;
+}
+
+.done {
+    background-color: rgb(113, 238, 113);
+    width:100px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    border: 2px solid black;
+}
+.delete {
+    background-color: rgb(237, 75, 75);
+    width:100px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 60px;
+    color: black;
+    border: 2px solid black;
+}
+
+.undone {
+    background-color: rgb(237, 75, 75);
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    border: 2px solid black;
+}
+
+.doneTask {
+    text-decoration: line-through;
+}
